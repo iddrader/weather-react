@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(168, 196, 220);
+    background-color: rgb(227, 123, 159);
     padding: 1em;
     border-radius: 1em 1em 0 0;
 
@@ -9,7 +9,10 @@ header {
         justify-content:  space-between;
 
         li {
-            cursor: pointer;
+            a {
+                text-decoration: none;
+                color: white;
+            }
         }
     }
 }

@@ -1,11 +1,12 @@
-import '../styles/Header.scss'
+import { Link } from "react-router-dom";
+import '../styles/Header.scss';
 
 function Header() {
     return (
         <header>
             <ul>
-                <li>Home</li>
-                <li>Choose city</li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/cities">Choose city</Link></li>
             </ul>
         </header>
     )
